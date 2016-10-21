@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorPrimaryDark"
+              android:orientation="vertical"
+              tools:context=".RowListFragment">
+
+    <Button
+        android:id="@+id/button_force_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Force Load"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="?attr/actionBarSize"
+        android:clipToPadding="false"
+        android:background="@android:color/white">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>

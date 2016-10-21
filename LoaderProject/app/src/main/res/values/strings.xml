@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoaderProject</string>
+
+    <string-array name="items">
+        <item>earth</item>
+        <item>moon</item>
+        <item>mars</item>
+        <item>pluto</item>
+        <item>saturn</item>
+    </string-array>
+</resources>
